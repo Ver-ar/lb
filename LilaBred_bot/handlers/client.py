@@ -189,7 +189,7 @@ async def afro_head_big(message: types.Message):
 async def afro_head_thick(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_head_thick.JPG", "rb"),
+        photo=open("photos/Afro_head_thick.jpg", "rb"),
         caption="Толстые(40-60 шт.) – 18 500 руб.",
     )
 
@@ -198,7 +198,7 @@ async def afro_head_thick(message: types.Message):
 async def afro_head_middle(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_head_middle.JPG", "rb"),
+        photo=open("photos/Afro_head_middle.jpg", "rb"),
         caption="Средние(60-80 шт.) – 20 000 руб.",
     )
 
@@ -207,7 +207,7 @@ async def afro_head_middle(message: types.Message):
 async def afro_head_small(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_head_small.JPG", "rb"),
+        photo=open("photos/Afro_head_small.jpg", "rb"),
         caption="Мелкие(80-100 шт.) – 23 500 руб.",
     )
 
@@ -219,7 +219,7 @@ async def afro_head_small(message: types.Message):
 async def afro_undercut_big(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_undercut_big.JPG", "rb"),
+        photo=open("photos/Afro_undercut_big.jpg", "rb"),
         caption="Крупные(10-20 шт.) – 6 500 руб.",
     )
 
@@ -228,7 +228,7 @@ async def afro_undercut_big(message: types.Message):
 async def afro_undercut_thick(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_undercut_thick.JPG", "rb"),
+        photo=open("photos/Afro_undercut_thick.jpg", "rb"),
         caption="Толстые(30-40 шт.) – 8 500 руб.",
     )
 
@@ -237,7 +237,7 @@ async def afro_undercut_thick(message: types.Message):
 async def afro_undercut_small(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Afro_undercut_middle.JPG", "rb"),
+        photo=open("photos/Afro_undercut_middle.jpg", "rb"),
         caption="Средние(40-60 шт.) – 10 000 руб.",
     )
 
@@ -321,7 +321,7 @@ async def breds_zone_choice(message: types.Message):
 async def breds_head_material_middle(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Breds_head_materials_middle.JPG", "rb"),
+        photo=open("photos/Breds_head_materials_middle.jpg", "rb"),
         caption="Брейды: 2-4 шт. – 4 500 руб.",
     )
 
@@ -333,7 +333,7 @@ async def breds_head_material_middle(message: types.Message):
 async def breds_head_material_thick(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Breds_head_materials_thick.JPG", "rb"),
+        photo=open("photos/Breds_head_materials_thick.jpg", "rb"),
         caption="Брейды: 5-7 шт. – 6 500 руб.",
     )
 
@@ -345,7 +345,7 @@ async def breds_head_material_thick(message: types.Message):
 async def breds_head_material_big(message: types.Message):
     await lilabred_bot.send_photo(
         chat_id=message.from_user.id,
-        photo=open("photos/Breds_head_materials_big.JPG", "rb"),
+        photo=open("photos/Breds_head_materials_big.jpg", "rb"),
         caption="Брейды: 8-10 шт. – 7 500 руб.",
     )
 
